@@ -1,5 +1,4 @@
-//remove comment if you are running in node
-//const algosdk = require('algosdk');
+const algosdk = require('algosdk');
 
 // function used to wait for a tx confirmation
 const waitForConfirmation = async function (algodclient, txId) {
